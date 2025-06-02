@@ -1,0 +1,40 @@
+{
+  "name": "num-to-letter",
+  "version": "1.0.0",
+  "description": "The Number-to-Words Money Conversion Library is a specialized utility designed to convert numeric currency values into fully spelled-out words, supporting accurate, readable, and legally recognized textual representations of financial amounts.",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "dist",
+    "test": "src/test"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "ts-node ./src/test/numberToLetter.test.ts",
+    "build": "tsc",
+    "start:dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaam0/num-to-letter.git"
+  },
+  "keywords": [
+    "number",
+    "letter",
+    "finance",
+    "education",
+    "bank"
+  ],
+  "author": "Jessie A. Álvarez M.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaam0/num-to-letter/issues"
+  },
+  "homepage": "https://github.com/Jaam0/num-to-letter#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
