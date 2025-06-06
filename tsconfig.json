@@ -13,7 +13,7 @@
     "strict": true,                                   
     "skipLibCheck": true                                
   },
-  "include": ["src"]
+  "include": ["dist", "src"],
 }
 
 
