@@ -1,6 +1,6 @@
 {
   "name": "num-to-letter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Number-to-Words Money Conversion Library is a specialized utility designed to convert numeric currency values into fully spelled-out words, supporting accurate, readable, and legally recognized textual representations of financial amounts.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
