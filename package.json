@@ -14,8 +14,7 @@
   "scripts": {
     "test": "ts-node ./src/test/numberToLetter.test.ts",
     "build": "tsc",
-    "start:dev": "ts-node src/index.ts",
-    "start": "node dist/index.js"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
